@@ -1,0 +1,8 @@
+version: '3'
+services:
+  aopp:
+    image: "mvn-project:$BUILD_TAG"
+    build:
+      context: .
+      dockerfile: Dockerfile-java
+
